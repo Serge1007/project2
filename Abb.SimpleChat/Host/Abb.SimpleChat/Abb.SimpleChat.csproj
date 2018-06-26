@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Abb.SimpleChat.Business.Logic.sln" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.2" />
+    <PackageReference Include="Moq" Version="4.8.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="NLog" Version="4.5.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Abb.SimpleChat.Infrastructure.Logger.NLog\Abb.SimpleChat.Infrastructure.Logger.NLogLogger.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Abb.SimpleChat.Business.Logic">
+      <HintPath>..\..\Business\Abb.SimpleChat.Business.Logic\Abb.SimpleChat.Business.Logic\bin\Debug\netcoreapp2.0\Abb.SimpleChat.Business.Logic.dll</HintPath>
+    </Reference>
+    <Reference Include="Abb.SimpleChat.External.RepositoryEntityFamework">
+      <HintPath>..\..\External\Abb.SimpleChat.External.RepositoryEntityFamework\bin\Debug\netcoreapp2.0\Abb.SimpleChat.External.RepositoryEntityFamework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

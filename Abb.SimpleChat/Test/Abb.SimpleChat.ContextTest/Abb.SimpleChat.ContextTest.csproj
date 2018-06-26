@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TestBase.db3-journal" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SQLite.Core" Version="2.1.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+    <PackageReference Include="Moq" Version="4.8.3" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.2.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.0" />
+    <PackageReference Include="System.Data.Common" Version="4.3.0" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.108" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Abb.SimpleChat.Business.Logic">
+      <HintPath>..\..\Business\Abb.SimpleChat.Business.Logic\Abb.SimpleChat.Business.Logic\bin\Debug\netcoreapp2.0\Abb.SimpleChat.Business.Logic.dll</HintPath>
+    </Reference>
+    <Reference Include="Abb.SimpleChat.External.RepositoryEntityFamework">
+      <HintPath>..\..\External\Abb.SimpleChat.External.RepositoryEntityFamework\bin\Debug\netcoreapp2.0\Abb.SimpleChat.External.RepositoryEntityFamework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

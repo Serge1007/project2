@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.2.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.0" />
+    <PackageReference Include="NLog" Version="4.5.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Abb.SimpleChat.Infrastructure.Logger.NLogLogger">
+      <HintPath>..\..\Infrastructure\Abb.SimpleChat.Infrastructure.Logger.NLog\bin\Debug\netcoreapp2.0\Abb.SimpleChat.Infrastructure.Logger.NLogLogger.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

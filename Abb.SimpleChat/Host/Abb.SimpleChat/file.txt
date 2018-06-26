@@ -1,0 +1,120 @@
+﻿2018-06-25 19:15:47.7973|ERROR|SimpleChatLogger|Ошибка авторизации
+2018-06-25 19:29:21.2705|INFO|SimpleChatLogger|Пользователь sereg зарегистрирован
+2018-06-25 19:48:26.7470|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-25 20:15:44.3263|ERROR|SimpleChatLogger|Сообщение не доставлено
+2018-06-25 20:17:40.6354|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 20:20:23.3827|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:22:37.2166|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:32:38.2539|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:32:59.3003|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 20:33:49.8979|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:35:03.4523|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:36:24.9317|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:36:40.2640|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 20:37:10.0651|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:40:03.9534|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:41:14.3514|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:42:17.2359|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:42:54.4182|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:48:06.5470|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:48:12.9560|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 20:50:56.2484|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:52:01.6863|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 20:52:51.3003|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:53:04.3146|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 20:53:04.3624|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 20:54:42.3715|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 21:16:35.0019|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 21:18:01.3725|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 21:19:27.2073|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 21:19:35.4615|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 21:19:35.4615|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 21:24:21.9345|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 21:36:56.7093|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 21:36:56.7799|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 21:38:48.4579|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 21:38:48.5303|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 21:38:59.4862|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 21:38:59.4875|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 21:39:16.3590|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 21:39:16.3590|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 22:15:27.3406|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-25 22:21:01.3682|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-25 22:22:45.3975|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-25 22:22:53.3702|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 22:22:53.3702|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 22:23:05.2510|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 22:23:05.2532|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 22:28:19.8844|INFO|SimpleChatLogger|Пользователь Николай зарегистрирован
+2018-06-25 22:28:25.7931|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-25 22:28:36.6135|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 22:28:36.6135|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 23:04:40.4493|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-25 23:14:37.2246|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-25 23:15:47.9681|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-25 23:16:23.9801|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-25 23:18:38.3456|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-25 23:20:37.9248|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-25 23:22:32.6339|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-25 23:28:31.1651|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-25 23:33:32.7488|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-25 23:34:25.3125|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-25 23:34:44.0184|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 23:34:44.0199|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-25 23:34:44.0851|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 23:38:16.9307|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-25 23:38:17.2564|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 23:38:36.2690|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-25 23:38:36.2690|INFO|SimpleChatLogger|Доставлено сообщение от 2
+2018-06-26 07:27:08.6163|INFO|SimpleChatLogger|Пользователь sereg зарегистрирован
+2018-06-26 07:27:15.8796|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 07:27:27.6596|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-26 07:27:27.6596|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-26 07:28:08.9273|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 07:28:37.6169|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-26 07:28:37.6169|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-26 07:37:03.6801|INFO|SimpleChatLogger|Пользователь Николай зарегистрирован
+2018-06-26 07:37:11.8852|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-26 07:40:26.4923|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 07:40:54.2796|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-26 07:40:54.2796|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-26 07:41:48.3816|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 07:47:31.0719|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-26 09:38:56.4204|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 09:44:28.7396|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 09:45:17.6136|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 09:46:38.5419|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 09:50:56.4523|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 09:53:28.8789|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-26 09:54:57.1324|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 09:56:20.6668|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 09:56:47.8261|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-26 09:56:47.8261|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-26 09:57:24.9401|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-26 09:57:48.7235|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-26 09:57:50.3573|INFO|SimpleChatLogger|Доставлено сообщение от 2
+2018-06-26 09:58:50.4422|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 09:59:03.3077|ERROR|SimpleChatLogger|Ошибка показа сообщений
+2018-06-26 09:59:04.1917|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-26 10:00:17.7616|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-26 10:03:33.9004|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 10:03:40.0625|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-26 10:04:58.3079|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-26 10:05:05.8348|INFO|SimpleChatLogger|Доставлено сообщение от 2
+2018-06-26 10:10:26.9528|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 10:10:30.4347|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-26 10:10:41.3520|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-26 10:10:46.6955|INFO|SimpleChatLogger|Доставлено сообщение от 2
+2018-06-26 10:13:38.7776|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 10:13:40.9715|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-26 10:13:48.8718|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-26 10:13:55.8117|INFO|SimpleChatLogger|Доставлено сообщение от 2
+2018-06-26 10:16:49.0859|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 10:16:53.0930|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-26 19:33:49.9185|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 19:33:56.2926|INFO|SimpleChatLogger|Доставлено сообщение от 1
+2018-06-26 19:34:47.8459|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 19:35:22.6667|INFO|SimpleChatLogger|Пользователь sereg авторизован
+2018-06-26 19:35:24.3386|INFO|SimpleChatLogger|Пользователь Николай авторизован
+2018-06-26 19:35:32.5532|INFO|SimpleChatLogger|Доставлено сообщение от 2
+2018-06-26 19:35:35.9964|INFO|SimpleChatLogger|Доставлено сообщение от 1
