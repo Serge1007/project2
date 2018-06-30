@@ -4,12 +4,16 @@ using Microsoft.AspNetCore.Mvc;
 using Abb.SimpleChat.Business.Logic.Entities;
 using Abb.SimpleChat.External.RepositoryEntityFamework;
 using Abb.SimpleChat.Infrastructure.Logger;
+using System.Threading.Tasks;
+using Abb.SimpleChat.Hub;
+using Microsoft.AspNetCore.SignalR;
+using System.Collections.Generic;
 
 namespace Abb.SimpleChat.Controllers
 {
     public class MessagingController : Controller
     {
-        
+        IHubContext<UpdateChatHub, ITypedHubClient> chatHubContext;
         private const string Path =
            "C:\\Users\\Сергей\\source\\repos\\Abb.SimpleChat\\Host\\Abb.SimpleChat";
         private const string DatabaseName = "Base.db3";
@@ -26,10 +30,12 @@ namespace Abb.SimpleChat.Controllers
         SimpleChatRepository<Messages> messageRepository;
         NLogLogger log;
 
-        public MessagingController()
+        public MessagingController(IHubContext<UpdateChatHub, ITypedHubClient> chatHubContext)
         {
             try
             {
+                this.chatHubContext = chatHubContext;
+
                 log = new NLogLogger($"{Path}\\{fileName}");
                 databaseSettings = new DatabaseSettings();
                 databaseSettings.ConnnectionString = $"{Path}\\{DatabaseName}";
@@ -61,16 +67,17 @@ namespace Abb.SimpleChat.Controllers
                 log.Error("Ошибка настройки", e);
             }
         }
-       
 
         [HttpGet]
         public IActionResult MessagingView(string name, int id)
         {
+            
             user = new Users()
             {
                 Name = name,
                 Id = id
             };
+
             ViewBag.user = user;
             ViewBag.messageTable = messageTable;
             
@@ -84,6 +91,13 @@ namespace Abb.SimpleChat.Controllers
             ViewBag.user = user;
             ViewBag.messageTable = messageTable;
             return View();
+        }
+
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            chatHubContext.Clients.All.BroadcastMessage(message.Text, user.Name);
+            return new string[] { "value1", "value2" };
         }
 
         [HttpPost]
@@ -101,7 +115,9 @@ namespace Abb.SimpleChat.Controllers
                 messageRepository.Add(message);
                 messageRepository.Save();
 
-                ShowMessages();
+
+                Get();
+         
 
                 otvet = "Сообщение доставлено";
                 log.Info($"Доставлено сообщение от {userId}");
